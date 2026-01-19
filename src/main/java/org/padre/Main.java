@@ -13,7 +13,7 @@ public class Main {
         GestorConsultas gestorConsultas = new GestorConsultas();
         System.out.println("===================RETORNA LA BIBLIOTECA DE UN USUARIO=================");
         UsuarioDTO testUsuario = new UsuarioDTO();
-        testUsuario.setPkusuario(4L);
+        testUsuario.setPkusuario(2L);
         BibliotecaDTO b =  gestorConsultas.getBibliotecaUsuario(testUsuario);
         if(b!=null){
             System.out.println(b.toString());
